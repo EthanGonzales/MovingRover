@@ -25,7 +25,7 @@ function uploadBackground() {
 };
 
 function uploadRover() {
-    ctx.drawImage(rover_image_tag, 0, 0, rover_width, rover_height);
+    ctx.drawImage(rover_image_tag, rover_x, rover_y, rover_width, rover_height);
 };
 
 window.addEventListener("keydown", my_keydown);
